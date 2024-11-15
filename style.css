@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email{
+    display: block;
+    width: 198px;
+}
+input{
+    margin-top: 5px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 13px;
+    padding-left: 10px;
+}
+.sign{
+    margin-top: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(88, 170, 224);
+    height: 32px;
+    width: 211px;
+    border-style: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+.sign:hover{
+    box-shadow: 1px 1px 5px rgba(74, 144, 226, 0.5);
+}
+.sign:active{
+    transform: scale(0.98);
+}
+.first,.last{
+    width: 90px;
+
+}
+input:focus{
+    outline: none;
+}
